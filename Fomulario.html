@@ -1,0 +1,78 @@
+<HTML>
+<HEAD>
+<style>
+        body {
+		margin-left: 65px; /* Ajusta el valor según tus necesidades */
+            background-color: #F1E1F0; 
+            color: #333;
+        }
+    </style>
+<TITLE>Mis datos basicos</TITLE>
+<LINK rel="stylesheet" href="css/Style.css">
+</HEAD>
+<BODY>
+<!-- Menú de navegación del sitio -->
+<ul class="navbar">
+<li><a href="Fomulario.html">Formulario</a></li>
+</ul>
+<div class="frmTitle">
+<H1 class="frm">Datos y sintomas</H1>
+</div>
+<HR>
+
+<form>
+
+
+
+<fieldset>
+<legend> Informaci&oacute;n del paciente </legend>
+<p><label>Nombres: <input class="info">
+</label>&nbsp;&nbsp;&nbsp;<label>Apellidos: <input class="info"></label></p>
+<p><label>Tel&eacute;fono: <input class="info" type="tel"></label>&nbsp;&nbsp;&nbsp;
+<label>Correo electr&oacute;nico: <input class="info" type=email></label></p>
+
+</fieldset>
+
+<fieldset>
+<legend> ¿Con que se identifica? </legend>
+<p><label> <input type=radio name=size> Ansiedad</label></p>
+<p><label> <input type=radio name=size> Depresion </label></p>
+<p><label> <input type=radio name=size> Problemas de autoestima </label></p>
+<p><label> <input type=radio name=size> Problemas de conducta </label></p>
+<p><label> <input type=radio name=size> Trastornos de alimentacion </label></p>
+
+</fieldset>
+<fieldset>
+<legend>¿Como le gustaria las charlas? </legend>
+<p><label> <input type=radio name=size> Presencial </label></p>
+<p><label> <input type=radio name=size> Virtual </label></p>
+<p><label> <input type=radio name=size> Mixtas </label></p>
+
+
+</fieldset>
+<p><label>Horario de charlas: <input type=time min="11:00" max="21:00" step="900"></label></p>
+<p><label>¿Que siente?: <textarea></textarea></label></p>
+
+<fieldset>
+<legend> Direcci&oacute;n de residencia </legend>
+<p><label>Barrio: <input class="info"></label>&nbsp;&nbsp;&nbsp;
+<label>Direcci&oacute;on: <input class="info"></label></p>
+</fieldset>
+
+<br>
+<div class="center"><button class="button button1" onClick="alert('Your data was sent/Sus datos fueron enviados');">Send data/Enviar datos</button></div>
+</form>
+
+
+
+ 
+
+</BODY>
+</HTML>
+
+
+
+
+
+
+
